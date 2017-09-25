@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eureka-consumer
+server:
+  port: 8093
+# eureka-client配置
+eureka:
+  client:
+    service-url:
+      default-zone: http://172.21.1.189:8761/eureka/

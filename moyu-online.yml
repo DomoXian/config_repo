@@ -57,5 +57,4 @@ mybatis:
 
 # 日志配置
 logging:
-  path: /Users/xianguo1/logs
   config: classpath:moyu-logback.xml
